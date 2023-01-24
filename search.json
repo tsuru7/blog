@@ -25,6 +25,6 @@
     "href": "posts/2023-01-24-setup/index.html",
     "title": "Setup on Windows",
     "section": "",
-    "text": "Windows環境にQuartoによるブログ作成環境を作る\nconda create -n fastai\nconda activate fastai\nconda install notebook\nconda install -c fastchan nbdev\nWindows版のQuartoをインストールする\nGitHubでblogリポジトリを作成する\nblogリポジトリにgh-pagesブランチを作成する\nblogリポジトリのSettings > Pagesでbranchにgh-pagesが設定されていることを確認する\ngit clone https://github.com/tsuru7/blog.git\ncd blog\nquarto create-project –type website:blog\nquarto publish gh-pages\nサンプルページが作成され、公開される\n新規投稿を公開するには、postフォルダに yyyy-MM-dd-タイトル フォルダを作成し、そのフォルダにノートブックを作成する\nquarto publish gh-pages\nこれで新しい投稿が公開される"
+    "text": "Windows環境にQuartoによるブログ作成環境を作る\n\nconda create -n fastai\n\nconda activate fastai\n\nconda install notebook\n\nconda install -c fastchan nbdev\n\nWindows版のQuartoをインストールする\nGitHubでblogリポジトリを作成する\nblogリポジトリにgh-pagesブランチを作成する\nblogリポジトリのSettings > Pagesでbranchにgh-pagesが設定されていることを確認する\n\ngit clone https://github.com/tsuru7/blog.git\n\ncd blog\n\nquarto create-project --type website:blog\n\nquarto publish gh-pages\n\nサンプルページが作成され、公開される\n新規投稿を公開するには、postフォルダに yyyy-MM-dd-タイトル フォルダを作成し、そのフォルダにノートブックを作成する\n\nquarto publish gh-pages\n\nこれで新しい投稿が公開される"
   }
 ]
