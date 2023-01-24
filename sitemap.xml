@@ -2,22 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tsuru7.github.io/blog/about.html</loc>
-    <lastmod>2023-01-24T14:13:04.854Z</lastmod>
+    <lastmod>2023-01-24T14:15:25.932Z</lastmod>
   </url>
   <url>
     <loc>https://tsuru7.github.io/blog/index.html</loc>
-    <lastmod>2023-01-24T14:13:05.297Z</lastmod>
+    <lastmod>2023-01-24T14:15:26.354Z</lastmod>
   </url>
   <url>
     <loc>https://tsuru7.github.io/blog/posts/2023-01-24-hello-world/hello.html</loc>
-    <lastmod>2023-01-24T14:13:05.653Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tsuru7.github.io/blog/posts/post-with-code/index.html</loc>
-    <lastmod>2023-01-24T14:13:06.009Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tsuru7.github.io/blog/posts/welcome/index.html</loc>
-    <lastmod>2023-01-24T14:13:06.348Z</lastmod>
+    <lastmod>2023-01-24T14:15:26.713Z</lastmod>
   </url>
 </urlset>

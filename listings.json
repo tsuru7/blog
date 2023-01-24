@@ -2,9 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/2023-01-24-hello-world/hello.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/2023-01-24-hello-world/hello.html"
     ]
   }
 ]
