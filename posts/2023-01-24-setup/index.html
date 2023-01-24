@@ -142,12 +142,18 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="windows環境にquartoによるブログ作成環境を作る" class="level3">
 <h3 class="anchored" data-anchor-id="windows環境にquartoによるブログ作成環境を作る">Windows環境にQuartoによるブログ作成環境を作る</h3>
-<p>conda create -n fastai conda activate fastai conda install notebook conda install -c fastchan nbdev</p>
+<p>conda create -n fastai</p>
+<p>conda activate fastai</p>
+<p>conda install notebook</p>
+<p>conda install -c fastchan nbdev</p>
 <p>Windows版のQuartoをインストールする</p>
 <p>GitHubでblogリポジトリを作成する</p>
 <p>blogリポジトリにgh-pagesブランチを作成する</p>
 <p>blogリポジトリのSettings &gt; Pagesでbranchにgh-pagesが設定されていることを確認する</p>
-<p>git clone https://github.com/tsuru7/blog.git cd blog quarto create-project –type website:blog quarto publish gh-pages</p>
+<p>git clone https://github.com/tsuru7/blog.git</p>
+<p>cd blog</p>
+<p>quarto create-project –type website:blog</p>
+<p>quarto publish gh-pages</p>
 <p>サンプルページが作成され、公開される</p>
 <p>新規投稿を公開するには、postフォルダに yyyy-MM-dd-タイトル フォルダを作成し、そのフォルダにノートブックを作成する</p>
 <p>quarto publish gh-pages</p>
