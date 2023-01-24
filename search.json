@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "blog",
     "section": "",
-    "text": "Hello, world!\n\n\n\n\n\n\n\n\n\n\n\n\nJan 24, 2023\n\n\nTakeshi Tsurusawa\n\n\n\n\n\n\nNo matching items"
+    "text": "Hello, world!\n\n\n\n\n\n\n\n\n\n\n\n\nJan 24, 2023\n\n\nTakeshi Tsurusawa\n\n\n\n\n\n\n\n\nSetup on Windows\n\n\n\n\n\n\n\n\n\n\n\n\nJan 24, 2023\n\n\nTakeshi Tsurusawa\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-01-24-hello-world/hello.html",
@@ -19,5 +19,12 @@
     "title": "Hello, world!",
     "section": "",
     "text": "Hello, world!\nThis is my first post.\n\nprint('Hello, world!')\n\nHello, world!"
+  },
+  {
+    "objectID": "posts/2023-01-24-setup/index.html",
+    "href": "posts/2023-01-24-setup/index.html",
+    "title": "Setup on Windows",
+    "section": "",
+    "text": "Windows環境にQuartoによるブログ作成環境を作る\nconda create -n fastai conda activate fastai conda install notebook conda install -c fastchan nbdev\nWindows版のQuartoをインストールする\nGitHubでblogリポジトリを作成する\nblogリポジトリにgh-pagesブランチを作成する\nblogリポジトリのSettings > Pagesでbranchにgh-pagesが設定されていることを確認する\ngit clone https://github.com/tsuru7/blog.git cd blog quarto create-project –type website:blog quarto publish gh-pages\nサンプルページが作成され、公開される\n新規投稿を公開するには、postフォルダに yyyy-MM-dd-タイトル フォルダを作成し、そのフォルダにノートブックを作成する\nquarto publish gh-pages\nこれで新しい投稿が公開される"
   }
 ]
